@@ -104,7 +104,7 @@ export const budgets = budgetSlice.reducer;
 export const postBudgets = (token, data) => (dispatch) => {
 
 
-    axios.post(import.meta.env.VITE_POST_URL, data,{
+    axios.post(process.env.VITE_POST_URL, data,{
         "headers": {
         "content-type": "application/json",
         "Authorization": `Bearer ${token}`
