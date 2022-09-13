@@ -64,7 +64,7 @@ export const credentials = credentialSlice.reducer;
 
 export const fetchCredentials = (params) => (dispatch) => {
     dispatch(setError())
-    axios.post(process.env.VITE_LOGIN_AUTH, params,{
+    axios.post('https://glou-back.herokuapp.com/auth', params,{
         "headers": {
         "content-type": "application/json",
         },

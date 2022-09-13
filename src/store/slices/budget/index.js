@@ -104,7 +104,7 @@ export const budgets = budgetSlice.reducer;
 export const postBudgets = (token, data) => (dispatch) => {
 
 
-    axios.post(process.env.VITE_POST_URL, data,{
+    axios.post('https://glou-back.herokuapp.com/budgets', data,{
         "headers": {
         "content-type": "application/json",
         "Authorization": `Bearer ${token}`
