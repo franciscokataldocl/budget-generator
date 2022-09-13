@@ -1,0 +1,24 @@
+.menu-items{
+    margin-bottom:1rem;
+}
+.menu-items a{
+    color:var(--white);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: var(--regular);
+    letter-spacing: .03rem;
+}
+.menu-items a span{
+  padding-right:5px;
+}
+
+.menu-items a:hover{
+    opacity:.5;
+    cursor: pointer;
+}
+.menu-items-box{
+    margin-top: 100%;
+}
+.exit{
+    color:white;
+}

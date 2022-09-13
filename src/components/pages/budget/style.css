@@ -1,0 +1,41 @@
+.result-title{
+    border-bottom: var(--grey-3) solid 1px;
+    padding-bottom: 2%;
+
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.animation-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.animation-container svg{
+    width:100%;
+    max-width:300px;
+}
+.pdf-container{
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.export-pdf{
+    background: #df4040;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    padding: 2% 3%;
+
+}
+.export-pdf:hover{
+    opacity: .5;
+    cursor: pointer;
+}

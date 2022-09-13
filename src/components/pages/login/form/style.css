@@ -1,0 +1,99 @@
+.form-container{
+    background:var(--white);
+    width:50%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width:400px;
+}
+.form-box input::placeholder{
+    color:var(--grey-2);
+}
+.logo{
+    width:100%;
+    max-width: 120px;
+    margin-bottom:2rem;
+}
+.form-box h1{
+    font-size:1.2rem;
+    text-align: center;
+    color:var(--grey-1);
+    margin-bottom:3rem;
+    font-weight: var(--medium);
+}
+.form-box form{
+    width:100%;
+}
+.form-box .form-group{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom:1.5rem;
+    position:relative;
+}
+.form-box .form-group input{
+    width: 100%;
+    padding: 0.8rem 0 0.8rem 1rem;
+    font-size: 1rem;
+    color: var(--grey-2);
+    background: var(--white);
+    border: var(--grey-3) solid 1px;
+    border-radius: 5px;
+}
+.form-box .form-group input:focus{
+    border: var(--purple) solid 1px;
+    outline: none;
+}
+
+
+
+.eye-icon{
+    color: var(--purple);
+    position: absolute;
+    right: 0.8rem;
+    bottom: 0.8rem;
+}
+.eye-icon:hover{
+    cursor:pointer;
+    opacity:.5;
+}
+
+
+
+
+
+
+
+.form-box .form-group label{
+    font-size: .8rem;
+    color: var(--grey-2);
+    margin-bottom: 0.4rem;
+}
+.login-button{
+    background: var(--purple);
+    color: var(--white);
+    width: 100%;
+    border: none;
+    padding: 1rem 0.5rem;
+    border-radius: 5px;
+}
+.login-button:hover{
+    background:var(--purple-dark);
+    cursor:pointer;
+}
+
+.error-post{
+    color: var(--red);
+    text-align: center;
+    width: 100%;
+    font-size: .9rem;
+    font-weight: var(--regular);
+}

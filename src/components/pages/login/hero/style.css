@@ -1,0 +1,11 @@
+.hero-container{
+    width:50%;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container svg{
+    width:100%;
+    max-width:350px;
+}

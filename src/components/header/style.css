@@ -1,0 +1,19 @@
+.header{
+    position: absolute;
+    top: 1%;
+    right: 40px;
+    z-index: 1;
+    background: var(--purple);
+    width: auto;
+    padding: 10px;
+    border-radius: 100px;
+}
+.header span{
+    font-size: .9rem;
+    font-weight: var(--regular);
+    color:white;
+}
+.header span p {
+    font-weight: var(--light);
+    display:inline-block;
+}
